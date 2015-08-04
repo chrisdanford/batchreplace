@@ -1,0 +1,40 @@
+{
+  "name": "batchreplace",
+  "version": "1.0.0",
+  "description": "Efficiently replace a batch of strings all at once",
+  "homepage": "https://github.com/chrisdanford/batchreplace",
+  "repository": "chrisdanford/batchreplace",
+  "author": {
+    "name": "Chris Danford",
+    "email": "chrisdanford@gmail.com",
+    "url": "https://www.chrisdanford.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "replace",
+    "string",
+    "batch"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "jshint-stylish": "^1.0.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
