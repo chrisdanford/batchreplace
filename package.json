@@ -1,6 +1,6 @@
 {
   "name": "batchreplace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Efficiently replace a batch of strings all at once",
   "homepage": "https://github.com/chrisdanford/batchreplace",
   "repository": "chrisdanford/batchreplace",
